@@ -23,7 +23,8 @@
 aside{
     background-color: aquamarine;
     max-width: 10rem;
-    
+    display: flex;
+    justify-content: space-between;
     height: 100vh;
 }
 nav{
@@ -32,8 +33,26 @@ nav{
     flex-direction: column;
 }
 
-.menu-item svg{
+.menu-item svg {
 
-    width: 25%;
+    width: 20%;
     
+}
+
+.container-menu-superiore ul li{
+    
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.container-playlist{
+
+    margin-top: 1rem;
+}
+
+.fa-plus{
+
+    background-color: grey;
+    padding: .625rem;
+    font-size: 1.3rem;
 }
