@@ -24,13 +24,15 @@ aside{
     background-color: aquamarine;
     max-width: 10rem;
     display: flex;
-    justify-content: space-between;
+    
     height: 100vh;
 }
 nav{
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    
+    
 }
 
 .menu-item svg {
@@ -39,7 +41,7 @@ nav{
     
 }
 
-.container-menu-superiore ul li{
+.container-menu-superiore ul {
     
     list-style: none;
     margin-top: 0.5rem;
@@ -56,3 +58,16 @@ nav{
     padding: .625rem;
     font-size: 1.3rem;
 }
+
+.container-lista-playlist ul{
+    margin-top: 1rem;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.container-riproduzione{
+   
+    height: 90px;
+    background-color: darkgray;
+}
+
