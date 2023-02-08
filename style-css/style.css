@@ -21,20 +21,34 @@
 
 }
 
+a{
+
+    text-decoration: none;
+    font-family: inherit;
+    color: #717171;
+    
+}
+
 .giga-container{
 
     display: flex;
 }
 .container-laterale{
-    background-color: aquamarine;
+    background-color: black;
     
     width: 230px;
     display: flex;
     
     height: calc(100vh - 90px) ;
+    color: white;
 }
 
+.container-laterale > svg{
+
+    margin-bottom: 15px;
+}
 .container-main{
+    
     display: flex;
     flex-direction: row;
     background-color: lightseagreen;
@@ -42,24 +56,28 @@
 }
 
 nav{
-    padding: 1rem;
+    
+    padding: 1.25rem;
     display: flex;
     flex-direction: column;
     
-    
-    
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
     
 }
 
 .menu-item svg {
 
-    width: 20%;
+    width: 1.85em;
     
 }
 
-
-
-.container-menu-superiore ul {
+.container-menu-superiore ul{
     
     list-style: none;
     margin-top: 0.5rem;
@@ -67,12 +85,15 @@ nav{
 
 .container-playlist{
 
-    margin-top: 1rem;
+    margin-top: 1.875rem;
 }
+.crea-playlist{
 
+    margin-top: 15px;
+}
 .fa-plus{
-
-    background-color: grey;
+    color: black;
+    background-color: #717171;
     padding: .625rem;
     font-size: 1.3rem;
 }
@@ -83,9 +104,14 @@ nav{
     line-height: 1.5rem;
 }
 
+.container-lista-playlist li{
+    margin-top: 1.5625rem;
+    line-height: 1.5625rem;
+}
+
 .container-menu-inferiore{
-   
-    margin: auto 0;
+    
+    margin-top: auto;
 }
 
 .container-riproduzione{
@@ -95,3 +121,19 @@ nav{
     background-color: darkgray;
 }
 
+.container-menu-inferiore svg{
+
+    width: 1.5em;
+    background-color: #808080;
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
