@@ -129,11 +129,18 @@ nav{
     align-items: center;
 }
 
+.download{
+    margin-bottom: .75rem;
+    color: #717171;
+}
 
+.container-menu-inferiore hr{
 
+    border: 1px solid #717171;
+}
 .user{
     display: flex;
     align-items: center;
     gap: 10px;
-
+    margin-top: .9375rem;
 }
