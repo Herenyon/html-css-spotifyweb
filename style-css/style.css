@@ -1,127 +1,122 @@
-*{
+* {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 /* schermo xs */
-@media  screen and (max-width: 552px) {
-    
-}
+@media screen and (max-width: 552px) {}
+
 /* schermo s  */
-@media screen and (max-width: 640px) {
-    
-}
+@media screen and (max-width: 640px) {}
+
 /* schermo m  */
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 878px) {}
 
-}
 /* schermo lg  */
-@media screen and (min-width: 878px) {
+@media screen and (min-width: 878px) {}
 
-}
-
-a{
+a {
 
     text-decoration: none;
     font-family: inherit;
     color: #717171;
-    
+
 }
 
-.giga-container{
+.giga-container {
 
     display: flex;
 }
-.container-laterale{
+
+.container-laterale {
     background-color: black;
-    
+
     width: 230px;
     display: flex;
-    
-    height: calc(100vh - 90px) ;
+
+    height: calc(100vh - 90px);
     color: white;
 }
 
-.container-laterale > svg{
+.container-laterale>svg {
 
     margin-bottom: 15px;
 }
-.container-main{
-    
-    display: flex;
-    flex-direction: row;
-    background-color: lightseagreen;
-    width: calc(100% - 230px);
-}
 
-nav{
-    
+
+
+nav {
+
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.menu-item{
+.menu-item {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 15px;
-    
+
 }
 
 .menu-item svg {
 
     width: 1.85em;
-    
+
 }
 
-.container-menu-superiore ul{
-    
+.container-menu-superiore ul {
+
     list-style: none;
     margin-top: 0.5rem;
 }
 
-.container-playlist{
+.container-playlist {
 
     margin-top: 1.875rem;
 }
-.crea-playlist{
+
+.crea-playlist {
 
     margin-top: 15px;
 }
-.fa-plus{
+
+.fa-plus {
     color: black;
     background-color: #717171;
     padding: .625rem;
     font-size: 1.3rem;
 }
 
-.container-lista-playlist ul{
+.container-lista-playlist ul {
     margin-top: 1rem;
     list-style: none;
     line-height: 1.5rem;
+
 }
 
-.container-lista-playlist li{
+.container-lista-playlist li {
     margin-top: 1.5625rem;
     line-height: 1.5625rem;
+
 }
 
-.container-menu-inferiore{
-    
+.container-menu-inferiore {
+
     margin-top: auto;
 }
 
-.container-riproduzione{
+.container-riproduzione {
     display: flex;
     width: 100%;
     height: 90px;
     background-color: darkgray;
 }
 
-.container-menu-inferiore svg{
+.container-menu-inferiore svg {
 
     width: 1.5em;
     background-color: #808080;
@@ -129,18 +124,94 @@ nav{
     align-items: center;
 }
 
-.download{
+.download {
     margin-bottom: .75rem;
     color: #717171;
 }
 
-.container-menu-inferiore hr{
+.container-menu-inferiore hr {
 
     border: 1px solid #717171;
 }
-.user{
+
+.user {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: .9375rem;
 }
+
+.navi-main {
+
+    font-weight: 700;
+    display: flex;
+    
+}
+
+.navi-main ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 1.25rem;
+}
+
+.container-main {
+
+    
+    padding: 1.25rem;
+    background-color: #141922;
+    width: calc(100% - 230px);
+    color: white;
+    overflow: hidden;
+    
+}
+
+.mini-container-main {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-album{
+    
+    margin-top: 3.125rem;
+    
+    
+}
+
+.mini-container-album{
+    gap: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3.125rem;
+}
+.album{
+    width: 12.5rem;
+    margin-top: 1.875rem;
+    text-align: center;
+    
+}
+
+.album > img{
+    width: 12.5rem;
+   
+}
+
+
+/* .upgrade {
+    position: fixed;
+    background-color: #717171 ;
+    right: 0;
+    z-index: 200;
+    color: white;
+}
+
+.upgrade>button {
+
+    border: 2px solid #717171;
+    padding: .9375rem 2.5rem;
+    border-radius: 25px;
+    border-color: white;
+
+}  */
