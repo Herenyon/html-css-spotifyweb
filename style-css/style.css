@@ -95,12 +95,14 @@ nav {
     margin-top: 1rem;
     list-style: none;
     line-height: 1.5rem;
+    overflow-y: scroll;
 
 }
 
 .container-lista-playlist li {
     margin-top: 1.5625rem;
     line-height: 1.5625rem;
+    
 
 }
 
@@ -109,12 +111,7 @@ nav {
     margin-top: auto;
 }
 
-.container-riproduzione {
-    display: flex;
-    width: 100%;
-    height: 90px;
-    background-color: darkgray;
-}
+
 
 .container-menu-inferiore svg {
 
@@ -163,6 +160,7 @@ nav {
     width: calc(100% - 230px);
     color: white;
     overflow: hidden;
+    padding-bottom: 6.25rem;
     
 }
 
@@ -198,7 +196,15 @@ nav {
    
 }
 
-
+.container-riproduzione {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 /* .upgrade {
     position: fixed;
     background-color: #717171 ;
