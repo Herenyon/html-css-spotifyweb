@@ -75,6 +75,10 @@ nav {
     margin-top: 0.5rem;
 }
 
+.container-menu-superiore li :hover{
+
+    color: white;
+}
 .container-playlist {
 
     margin-top: 1.875rem;
@@ -83,6 +87,11 @@ nav {
 .crea-playlist {
 
     margin-top: 15px;
+}
+
+.crea-playlist :hover{
+
+    color: white;
 }
 
 .fa-plus {
@@ -114,6 +123,13 @@ nav {
 
 }
 
+.container-lista-playlist li :hover{
+
+    color: white;
+
+}
+
+
 .container-menu-inferiore {
 
     margin-top: auto;
@@ -131,6 +147,11 @@ nav {
     margin-top: .75rem;
     margin-bottom: .75rem;
     color: #717171;
+}
+
+.download:hover{
+
+    color: white;
 }
 
 .container-menu-inferiore hr {
@@ -155,10 +176,14 @@ nav {
 }
 
 .navi-main ul li {
-
+    color: #7b7e82;
     list-style: none;
     display: inline-block;
     margin-left: 1.25rem;
+}
+.navi-main :hover{
+
+    color: white;
 }
 
 .container-main {
@@ -230,29 +255,40 @@ nav {
 
 }
 
-.container-footer-esterni{
+.container-footer-sinistro{
     
     align-items: center;
-    display: flex;
-    flex-grow: 1;
+        display: flex;
+        flex-grow: 1;
+        
 }
 
 .container-footer-centrale{
-    /* display: flex; */
+
     font-size: 1.5em;
     flex-grow: 4;
     
     justify-content: center;
-    align-items: center;
+   
 
 }
-.container-footer-esterni > img{
+
+.container-footer-destro{
+
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+
+}
+.container-footer-sinistro > img{
     margin: .75rem;
     width: 3rem;
     height: 3rem;
 }
 
-.container-footer-esterni h5{
+.container-footer-sinistro h5{
 
     color: #717171;
 }
@@ -271,9 +307,11 @@ nav {
 }
 
 .comandi-riproduzione{
-    
-    text-align: center;
-    margin-top: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    margin-top: .625rem;
+    gap: 1.875rem;
+    align-items: center;
     
 }
 
@@ -284,7 +322,39 @@ nav {
     padding: 5px 8px;
 }
 .barra-riproduzione{
-
+    display: flex;
     font-size: .5em;
+    justify-content: center;
+}
 
+
+
+.barra-progresso{
+    display: flex;
+    margin-top: .625rem;
+    width: 80%;
+    background-color: grey;
+    height: 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.barra-progressione{
+    width: 30%;
+    background-color: white;
+    height: 2px;
+    border-radius: 20px;
+    
+}
+
+.barra-progressione:hover{
+    text-align: center;
+    height: .375rem;
+    border-radius: 20px;
+    background-color: #1dfd7a;
+}
+
+.banana{
+    
+    margin: .625rem;
 }
